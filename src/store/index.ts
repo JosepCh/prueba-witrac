@@ -100,7 +100,8 @@ export default new Vuex.Store({
         }
       ]
     },
-    loading: true
+    loading: true,
+    items_page: 2
   },
   getters: {},
   mutations: {

@@ -4,8 +4,9 @@
     <DataTable
       v-show="!$store.state.loading"
       :isLoading="$store.state.loading"
-      :data="rows"
+      :data_rows="rows"
       :headers="columns"
+      :per_page="$store.state.items_page"
     />
   </div>
 </template>
